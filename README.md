@@ -1,4 +1,4 @@
-# 🚀 Unitree G1 Reinforcement Learning & Sim2Sim Project
+# Unitree G1 Reinforcement Learning & Sim2Sim Project
 
 This repository documents my work on reinforcement learning-based locomotion control for Unitree robots (G1) using Isaac Sim, Isaac Lab, RSL-RL, and MuJoCo, including training, debugging, policy deployment, and sim-to-sim transfer.
 
@@ -6,7 +6,7 @@ The goal of this project is to build and analyze robust locomotion policies and 
 
 ---
 
-# 🧠 Key Contributions
+# Key Contributions
 
 ## 1. Reinforcement Learning Training (Isaac Lab + RSL-RL)
 
@@ -72,7 +72,6 @@ This replaces joystick dependency and enables direct keyboard control during dep
 
 Resolved multiple real-world robotics engineering issues:
 
-- Isaac Sim / Isaac Lab version mismatches  
 - Missing checkpoint loading errors during evaluation  
 - ONNX runtime library linking issues  
 - MuJoCo scene loading inconsistencies  
@@ -80,7 +79,7 @@ Resolved multiple real-world robotics engineering issues:
 
 ---
 
-# 📦 Core Models
+# Core Models
 
 Stored in `g1_29dof/models/`:
 
@@ -91,7 +90,7 @@ Stored in `g1_29dof/models/`:
 
 ---
 
-# 🧪 Training Results Summary
+# Training Results Summary
 
 - Final training iterations: ~10,000  
 - Stable convergence observed after curriculum progression  
@@ -105,7 +104,7 @@ Stored in `g1_29dof/models/`:
 
 ---
 
-# 🧱 System Architecture
+# System Architecture
 
 ```
 Isaac Sim / MuJoCo
@@ -125,7 +124,7 @@ Simulation / Deployment
 
 ---
 
-# 📦 Repository Structure
+# Repository Structure
 
 ```
 .
@@ -168,7 +167,7 @@ Simulation / Deployment
 
 ---
 
-# 🧩 Key Technical Stack
+# Key Technical Stack
 
 - Isaac Sim 5.1  
 - Isaac Lab  
@@ -181,7 +180,7 @@ Simulation / Deployment
 
 ---
 
-# ⚙️ How to Run (Minimal Reproduction)
+# How to Run (Minimal Reproduction)
 
 This project provides step-by-step execution instructions in the `commands/` directory.
 
@@ -216,7 +215,7 @@ g1_29dof/commands/export_policy.md
 
 ---
 
-# 🌐 Network Interface Note
+# Network Interface Note
 
 Network interface names vary across machines.
 
@@ -236,7 +235,7 @@ Then replace `<your_interface_name>` in all execution commands.
 
 ---
 
-# 🎥 Demo
+# Demo
 
 Simulation demo:
 
@@ -246,7 +245,7 @@ media/g1_demo.mp4
 
 ---
 
-# 📊 What This Project Demonstrates
+# What This Project Demonstrates
 
 This project demonstrates:
   
@@ -259,7 +258,7 @@ This project demonstrates:
 
 ---
 
-# 🧠 Notes on Reproducibility
+# Notes on Reproducibility
 
 This project depends on:
 
@@ -272,7 +271,7 @@ Checkpoint and ONNX models are included for inference only.
 
 ---
 
-# ⚠️ Known Issues
+# Known Issues
 
 - Network interface differs across machines
 - DDS communication requires correct interface binding
@@ -281,7 +280,7 @@ Checkpoint and ONNX models are included for inference only.
 
 ---
 
-# 🚀 Future Work
+# Future Work
 
 - Improve left/right turning symmetry  
 - Reduce lateral drift under velocity commands  
@@ -291,7 +290,7 @@ Checkpoint and ONNX models are included for inference only.
 
 ---
 
-# 🔗 Base Framework
+# Base Framework
 
 This work is based on the Unitree RL Lab framework:
 
@@ -307,14 +306,14 @@ We build upon this framework and introduce:
 
 ---
 
-# 👤 Author
+# Author
 
 Chunmiao Li  
 University of California, Berkeley  
 
 ---
 
-# 📌 Important
+# Important
 
 This repository focuses on research reproduction + engineering implementation, not a full standalone framework.# Unitree RL Lab Reproduction and Sim2Sim Deployment
 
